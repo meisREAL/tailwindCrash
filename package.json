@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcrash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meisREAL/tailwindCrash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meisREAL/tailwindCrash/issues"
+  },
+  "homepage": "https://github.com/meisREAL/tailwindCrash#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
